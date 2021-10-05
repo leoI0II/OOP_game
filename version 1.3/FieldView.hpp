@@ -6,9 +6,9 @@
 #include<map>
 #include<initializer_list>
 
-enum class OutMode{CLI, GUI};
+enum class OutMode { CLI, GUI };
 
-class FieldView{
+class FieldView {
 public:
     FieldView(OutMode md = OutMode::GUI);
 

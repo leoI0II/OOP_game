@@ -2,22 +2,19 @@
 #define FIELD_HPP
 
 #include"FieldCage.hpp"
-#include"CreateField.hpp"   //Р·Р°РІРёСЃРёРјРѕСЃС‚СЊ
+#include"CreateField.hpp"   //зависимость
 
-class Field{
-private:
-    
-    FieldCage** cageArray;
-    static int width;   //1200 = 20 * 60
-    static int height;  //900 = 15 * 60
+class CreateField;
 
+class Field {
 public:
+    friend class CreateField;
     Field();
-    Field(CreateField& creator);
+    //Field(CreateField& creator);
     Field(const Field& otherField);
     Field(Field&& otherField);
     ~Field();
-    
+
     Field& operator=(const Field& otherField);
     Field& operator=(Field&& otherField);
 
@@ -26,6 +23,10 @@ public:
     const int Height() const;
     const int Width() const;
 
+private:
+    FieldCage** cageArray;
+    static int width;   //1200 = 20 * 60
+    static int height;  //900 = 15 * 60
 };
 
 #endif //FIELD_HPP

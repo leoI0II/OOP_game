@@ -2,17 +2,19 @@
 #define CREATE_FIELD_HPP
 
 #include"FieldCage.hpp"
-// #include"Field.hpp"
+#include"Field.hpp"
 
-class CreateField{
-    FieldCage** cages;
+class Field;
+
+class CreateField {
+    //FieldCage** cages;
     // FieldCage** getField();
 public:
-    CreateField(const char* filePath);
-    ~CreateField(){}
-    FieldCage** getField();
+    CreateField(const char* filePath, Field& field);
+    ~CreateField() {}
+    //FieldCage** getField();
 
-    // friend class Field;         //???? friend class Field::Field(CreateField&);
+    //friend class Field;         //???? friend class Field::Field(CreateField&);
 };
 
 #endif //CREATE_FIELD_HPP

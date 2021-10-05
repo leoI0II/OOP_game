@@ -3,10 +3,10 @@
 
 #include"IFieldCage.hpp"
 
-enum class Status {NOT_AVAILABLE, AVAILABLE};
-enum class Type {Exit, Common, Entry, Wall};
+enum class Status { NOT_AVAILABLE, AVAILABLE };
+enum class Type { Exit, Common, Entry, Wall };
 
-class FieldCage : public IFieldCage{
+class FieldCage : public IFieldCage {
 private:
     int x_coord;
     int y_coord;
@@ -16,11 +16,11 @@ private:
 
 public:
     FieldCage(int x = 0, int y = 0, Type tp = Type::Common, Status st = Status::NOT_AVAILABLE);
-    ~FieldCage(){}
+    ~FieldCage() {}
 
     Status& cageStatus();
     Type& cageType();
-    
+
     int getX() const;
     FieldCage& setX(int x);
 

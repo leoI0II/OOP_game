@@ -5,32 +5,32 @@
 int Field::height = 15;
 int Field::width = 20;
 
-Field::Field(){
-    cageArray = new FieldCage*[height];
+Field::Field() {
+    cageArray = new FieldCage * [height];
     for (int i = 0; i < height; i++)
         cageArray[i] = new FieldCage[width];
 }
 
-Field::~Field(){
+Field::~Field() {
     for (int i = 0; i < height; i++)
-        delete [] cageArray[i];
-    delete [] cageArray;
+        delete[] cageArray[i];
+    delete[] cageArray;
 }
 
-Field::Field(const Field& otherField) : Field(){
+Field::Field(const Field& otherField) : Field() {
     *this = otherField;
 }
 
-Field::Field(Field&& otherField){
+Field::Field(Field&& otherField) {
     std::swap(cageArray, otherField.cageArray);
 }
 
-Field::Field(CreateField& creator){
+/*Field::Field(CreateField& creator) {
     // cageArray = creator.cages;
-    cageArray = creator.getField();
-}
+    std::swap(cageArray, creator.cages);
+}*/
 
-Field& Field::operator=(const Field& otherField){
+Field& Field::operator=(const Field& otherField) {
     if (this == &otherField)
         return *this;
     for (int i = 0; i < height; i++)
@@ -39,20 +39,20 @@ Field& Field::operator=(const Field& otherField){
     return *this;
 }
 
-Field& Field::operator=(Field&& otherField){
+Field& Field::operator=(Field&& otherField) {
     if (this != &otherField)
         std::swap(cageArray, otherField.cageArray);
     return *this;
 }
 
-FieldCage& Field::getCage(int x, int y){
+FieldCage& Field::getCage(int x, int y) {
     return cageArray[x][y];
 }
 
-const int Field::Height() const{
+const int Field::Height() const {
     return height;
 }
 
-const int Field::Width() const{
+const int Field::Width() const {
     return width;
 }
