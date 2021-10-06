@@ -1,6 +1,7 @@
 #include"Field.hpp"
 #include"CreateField.hpp"
 #include<utility>
+#include<memory>
 
 int Field::height = 15;
 int Field::width = 20;
@@ -45,8 +46,8 @@ Field& Field::operator=(Field&& otherField) {
     return *this;
 }
 
-FieldCage& Field::getCage(int x, int y) {
-    return cageArray[x][y];
+FieldCage& Field::getCage(int i, int j) {
+    return cageArray[i][j];
 }
 
 const int Field::Height() const {
@@ -56,3 +57,41 @@ const int Field::Height() const {
 const int Field::Width() const {
     return width;
 }
+
+FieldCage** Field::begin(){
+    return cageArray;
+}
+
+FieldCage** Field::end(){
+    return cageArray + height*sizeof(FieldCage*);
+}
+
+// class Field::iterator{
+// public:
+//     iterator(FieldCage** begin = nullptr) : cagePtr(begin){}
+//     ~iterator(){}
+
+//     const FieldCage* operator*(){
+//         return cagePtr[i_pos] + j_pos*sizeof(FieldCage);
+//     }
+
+//     void operator++(){           //prefix
+//         check_pos();
+//     }
+
+//     bool operator!=(FieldCage* end){
+//         return (*(cagePtr + i_pos*sizeof(FieldCage*)) + j_pos*sizeof(FieldCage)) != end;
+//     }
+
+// private:
+//     FieldCage** cagePtr;
+//     int i_pos = 0;
+//     int j_pos = 0;
+    
+//     void check_pos(){
+//         if (j_pos == 20){
+//             i_pos++; j_pos = 0;
+//         }
+//         j_pos++;
+//     }
+// };
