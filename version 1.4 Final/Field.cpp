@@ -21,7 +21,7 @@ Field::Field(const Field& otherField) : Field() {
     *this = otherField;
 }
 
-Field::Field(Field&& otherField) {
+Field::Field(Field&& otherField) : Field(){
     std::swap(cageArray, otherField.cageArray);
 }
 
@@ -39,8 +39,9 @@ Field& Field::operator=(const Field& otherField) {
 }
 
 Field& Field::operator=(Field&& otherField) {
-    if (this != &otherField)
+    if (this != &otherField){
         std::swap(cageArray, otherField.cageArray);
+    }
     return *this;
 }
 
@@ -48,11 +49,11 @@ FieldCage& Field::getCage(int i, int j) {
     return cageArray[i][j];
 }
 
-const int Field::Height() const {
+const int Field::Height() {
     return height;
 }
 
-const int Field::Width() const {
+const int Field::Width() {
     return width;
 }
 

@@ -11,9 +11,10 @@ enum class OutMode { CLI, GUI };
 class FieldView {
 public:
     FieldView(OutMode md = OutMode::GUI);
-
+    ~FieldView(){}
     FieldView& operator<<(Field& field);
     // FieldView& operator<<(Field* field);
+    // FieldView& operator<<(FieldView& a, Field& field);
 
     void Mode(OutMode md);
     void loadPictures(std::initializer_list<std::string> fpList);

@@ -1,20 +1,13 @@
 #ifndef FIELDCAGE_HPP
 #define FIELDCAGE_HPP
 
-#include"IFieldCage.hpp"
 #include<iostream>
 
 enum class Status { NOT_AVAILABLE, AVAILABLE };
 enum class Type { Exit, Common, Entry, Wall };
+enum class CageSize {Size = 60};
 
-class FieldCage : public IFieldCage {
-private:
-    int x_coord;
-    int y_coord;
-
-    Type type;
-    Status status;
-
+class FieldCage {
 public:
     FieldCage(int x = 0, int y = 0, Type tp = Type::Common, Status st = Status::NOT_AVAILABLE);
     ~FieldCage() {}
@@ -28,17 +21,23 @@ public:
     int getY() const;
     FieldCage& setY(int y);
 
-    void method();
 
+    // friend std::ostream& operator<<(std::ostream& out, FieldCage& cage){
+    //     out << static_cast<int>(cage.cageType());
+    //     return out;
+    // }
+    // friend std::ostream& operator<<(std::ostream& out, FieldCage* cage){
+    //     out << static_cast<int>(cage->cageType());
+    //     return out;
+    // }
 
-    friend std::ostream& operator<<(std::ostream& out, FieldCage& cage){
-        out << static_cast<int>(cage.cageType());
-        return out;
-    }
-    friend std::ostream& operator<<(std::ostream& out, FieldCage* cage){
-        out << static_cast<int>(cage->cageType());
-        return out;
-    }
+private:
+    int x_coord;
+    int y_coord;
+
+    Type type;
+    Status status;
+
 };
 
 

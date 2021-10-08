@@ -5,11 +5,17 @@
 #include<fstream>
 
 
+// Field&& newField(){
+//     return std::move(Field(CreateField("map.txt")));
+// }
+
+
 int main() {
 
     Field field(CreateField("map.txt"));
     // CreateField creator("map.txt", field);
     FieldView check(OutMode::CLI);
+    
     check.loadPictures({"pics2/pictures/Wide_Door_Exit.png",
                         "pics2/pictures/Tile_12.jpg",
                         "pics2/pictures/Wide_Door_Entry.png",
@@ -17,6 +23,50 @@ int main() {
     // FieldView check(OutMode::CLI);
 
     check << field;
+    check.Mode(OutMode::GUI);
+    check << field;
+
+    std::cout << std::endl;
+
+    check.Mode(OutMode::CLI);
+    Field field1(field);
+    check << field1;
+    check.Mode(OutMode::GUI);
+    check<< field1;
+    std::cout << std::endl;
+
+    check.Mode(OutMode::CLI);
+    Field field2(std::move(field1));
+    check << field2;
+    check.Mode(OutMode::GUI);
+    check << field2;
+
+    std::cout << std::endl;
+    
+    check.Mode(OutMode::CLI);
+    Field field3;
+    field3 = field2;
+    check << field3;
+    check.Mode(OutMode::GUI);
+    check << field3;
+
+    std::cout << std::endl;
+
+    check.Mode(OutMode::CLI);
+    Field field4;
+    field4 = std::move(field3);
+    check << field4;
+    check.Mode(OutMode::GUI);
+    check << field4;
+    std::cout << std::endl;
+
+    // check << field3;
+
+    std::cout << std::endl;
+
+
+    // check.Mode(OutMode::GUI);
+    // check << field;
 
     // std::cout << std::endl;
 
@@ -27,7 +77,7 @@ int main() {
         // std::cout << "zdes" << std::endl;
         // int i = 0;
 
-        //WORK
+
         // for (it; it != field.end(); it++){
         //     std::cout << *it << " ";
         //     if (++i == 20){
@@ -36,7 +86,7 @@ int main() {
         //     }
         // }
 
-        //WORK
+
         // while(it != field.end()){
         //     std::cout << *it++ << " ";
         //     if (++i == 20){
@@ -47,24 +97,7 @@ int main() {
 
 
     }
-    std::cout << "HERE" << std::endl;
-
-    // std::ifstream file("map.txt", std::ifstream::in);
-
-    // int x;
-    // for (int i = 0; i < 15; i++){
-    //     for (int j = 0; j < 20; j++){
-    //         file >> x;
-    //         std::cout << x << " ";
-    //     }
-    //     std::cout << std::endl;
-    // }
-
-
-
-    // Field a, b;
-
-    // std::cout << a.Height() << " " << b.Height() << std::endl;
+    std::cout << "Bye!:)" << std::endl;
 
     return 0;
 }

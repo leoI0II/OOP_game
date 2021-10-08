@@ -29,5 +29,3 @@ FieldCage& FieldCage::setY(int y) {
     y_coord = y;
     return *this;
 }
-
-void FieldCage::method() {}

@@ -10,7 +10,7 @@ class CreateField {
     FieldCage** cages;
 public:
     CreateField(const char* filePath);
-    ~CreateField() {/*std::cout << "CreateField destructor called" << std::endl;*/}
+    ~CreateField();
 
     friend class Field;         //???? friend class Field::Field(CreateField&);
 };

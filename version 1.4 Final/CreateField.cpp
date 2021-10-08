@@ -1,7 +1,6 @@
 #include"CreateField.hpp"
 #include<fstream>
 // #include<iostream>
-#include<string>
 
 CreateField::CreateField(const char* fp) {
     std::ifstream mapFile(fp, std::ifstream::in);
@@ -11,15 +10,23 @@ CreateField::CreateField(const char* fp) {
 
     int type;
 
-    cages = new FieldCage*[15];
-    for (int i = 0; i < 15; i++){
-        cages[i] = new FieldCage[20];
-        for (int j = 0; j < 20; j++){
+    cages = new FieldCage*[Field::Height()];
+    for (int i = 0; i < Field::Height(); i++){
+        cages[i] = new FieldCage[Field::Width()];
+        for (int j = 0; j < Field::Width(); j++){
             mapFile >> type;
-            cages[i][j] = FieldCage(j * 60, i * 60, static_cast<Type>(type),
+            cages[i][j] = FieldCage(j * int(CageSize::Size), i * int(CageSize::Size), static_cast<Type>(type),
                 (type != 3 ? Status::AVAILABLE : Status::NOT_AVAILABLE));
         }
     }
     mapFile.close();
 
+}
+
+CreateField::~CreateField(){
+    if (cages){
+        for (int i = 0; i < Field::Height(); i++)
+            delete [] cages[i];
+        delete [] cages;
+    }
 }

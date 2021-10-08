@@ -8,7 +8,6 @@ class CreateField;
 
 class Field {
 public:
-    // friend class CreateField;
 
     Field();
     Field(CreateField creator);
@@ -23,8 +22,10 @@ public:
 
     FieldCage** begin();
     FieldCage** end();
-    const int Height() const;
-    const int Width() const;
+    static const int Height();
+    static const int Width();
+
+    // friend CreateField::CreateField(const char* fp);
 
     class iterator{
     public:
