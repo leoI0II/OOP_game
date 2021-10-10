@@ -33,25 +33,44 @@ void FieldView::draw() {
             sf::Texture texture;
             sf::Sprite sprite;
 
-            for (int i = 0; i < field.get().getHeight(); i++) {
-                for (int j = 0; j < field.get().getWidth(); j++) {
-                    texture.loadFromFile(filePaths[field.get().getCage(i, j).getType()]);
-                    sprite.setTexture(texture);
-                    sprite.setTextureRect(sf::IntRect(0, 0, int(CageSize::Size), int(CageSize::Size)));
-                    sprite.setPosition(int(field.get().getCage(i, j).getX()), int(field.get().getCage(i, j).getY()));
-                    window.draw(sprite);
-                }
+            // for (int i = 0; i < field.get().getHeight(); i++) {
+            //     for (int j = 0; j < field.get().getWidth(); j++) {
+            //         texture.loadFromFile(filePaths[field.get().getCage(i, j).getType()]);
+            //         sprite.setTexture(texture);
+            //         sprite.setTextureRect(sf::IntRect(0, 0, int(CageSize::Size), int(CageSize::Size)));
+            //         sprite.setPosition(int(field.get().getCage(i, j).getX()), int(field.get().getCage(i, j).getY()));
+            //         window.draw(sprite);
+            //     }
+            // }
+
+            Field::iterator it(field.get());
+            for (it; it != field.get().end(); ++it){
+                texture.loadFromFile(filePaths[(*it).getType()]);
+                sprite.setTexture(texture);
+                sprite.setTextureRect(sf::IntRect(0, 0, int(CageSize::Size), int(CageSize::Size)));
+                sprite.setPosition(int((*it).getX()), int((*it).getY()));
+                window.draw(sprite);
             }
 
             window.display();
         }
     }
     else if (mode == OutMode::CLI) {
-        for (int i = 0; i < field.get().getHeight(); i++) {
-            for (int j = 0; j < field.get().getWidth(); j++) {
-                std::cout << static_cast<int>(field.get().getCage(i, j).getType()) << " ";
+        Field::iterator it(field);
+        // for (int i = 0; i < field.get().getHeight(); i++) {
+        //     for (int j = 0; j < field.get().getWidth(); j++) {
+        //         std::cout << static_cast<int>(field.get().getCage(i, j).getType()) << " ";
+        //     }
+        //     std::cout << std::endl;
+        // }
+        int i = 0;
+        for (it; it != field.get().end(); ++it){
+            std::cout << static_cast<int>((*it).getType()) << " ";
+            i++;
+            if (i == field.get().getWidth()){
+                std::cout << std::endl;
+                i = 0;
             }
-            std::cout << std::endl;
         }
     }
 }

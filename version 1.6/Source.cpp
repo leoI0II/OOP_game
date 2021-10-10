@@ -15,18 +15,16 @@
 int main() {
 
     Field field(CreateField("map.txt"));
-    // // CreateField creator("map.txt", field);
-    // FieldView check(field, OutMode::CLI);
+    FieldView check(field, OutMode::CLI);
     
-    // check.loadPictures({"pics2/pictures/Wide_Door_Exit.png",
-    //                     "pics2/pictures/Tile_12.jpg",
-    //                     "pics2/pictures/Wide_Door_Entry.png",
-    //                     "pics/PNG/_land_6.jpg"});
-    // // FieldView check(OutMode::CLI);
+    check.loadPictures({"pics2/pictures/Wide_Door_Exit.png",
+                        "pics2/pictures/Tile_12.jpg",
+                        "pics2/pictures/Wide_Door_Entry.png",
+                        "pics/PNG/_land_6.jpg"});
 
-    // check.draw();
-    // check.Mode(OutMode::GUI);
-    // check.draw();
+    check.draw();
+    check.Mode(OutMode::GUI);
+    check.draw();
 
 
     
@@ -39,19 +37,19 @@ int main() {
     // check << field;
     // FieldCageView cagePrinter;
     {    
-        Field::iterator it = field;
-        // Field::iterator end = field.end();
-        std::cout << "zdes" << std::endl;
-        int i = 0;
+        // Field::iterator it = field;
+        // // Field::iterator end = field.end();
+        // std::cout << "zdes" << std::endl;
+        // int i = 0;
 
 
-        for (it; it != field.end(); it++){
-            std::cout << (int)(*it).getType() << " ";
-            if (++i == field.getWidth()){
-                std::cout << std::endl;
-                i = 0;
-            }
-        }
+        // for (it; it != field.end(); it++){
+        //     std::cout << (int)(*it).getType() << " ";
+        //     if (++i == field.getWidth()){
+        //         std::cout << std::endl;
+        //         i = 0;
+        //     }
+        // }
 
 
         // while(it != field.end()){
