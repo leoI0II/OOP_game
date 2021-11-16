@@ -1,0 +1,2 @@
+all:
+	g++ -g Point.hpp Tile.hpp ITileBuilder.hpp TileBuilder.hpp BuildDirector.hpp Exceptions.hpp CreateGrid.hpp CreateGrid.cpp FieldGrid.hpp FieldGrid.cpp GridView.hpp GridView.cpp Entity.hpp ICharacter.hpp Character.hpp Item.hpp Player.hpp Weapon.hpp Bullet.hpp Enemy.hpp EnemyFactory.hpp ItemFactory.hpp EntityView.hpp Controller.hpp Game.hpp main.cpp -o game -lsfml-graphics -lsfml-window -lsfml-system
