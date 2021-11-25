@@ -5,6 +5,8 @@
 #include<SFML/Graphics.hpp>
 #include"Entity.hpp"
 
+class FieldGrid;
+
 class EntityView
 {
 public:
@@ -28,7 +30,7 @@ public:
     int getSizeX();
     int getSizeY();
 
-    void updateView(sf::RenderWindow& win);
+    void updateView(sf::RenderWindow& win, FieldGrid& grid);
 
     void ChangeSprite(const std::string& newPicPath);
 

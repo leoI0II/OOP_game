@@ -62,7 +62,7 @@ void Game::HaveFun()
             if (event.type == sf::Event::KeyReleased) {
                 if (event.key.code == sf::Keyboard::Space) {
                     std::cout << "Space pressed" << std::endl;
-                    //player->SetFireState(true);
+                    player->SetFireState(true);
                 }
             }
         }
@@ -211,17 +211,18 @@ void Game::RenderObjects()
     std::list<pairBullet>::iterator BulletIter;
 
     window->clear();
+
     gridView->draw(*window);
     for (ItemIter = items.begin(); ItemIter != items.end(); ++ItemIter) {
-        ItemIter->second->updateView(*window);
+        ItemIter->second->updateView(*window, *grid);
     }
     for (EnemyIter = enemies.begin(); EnemyIter != enemies.end(); ++EnemyIter) {
-        EnemyIter->second->updateView(*window);
+        EnemyIter->second->updateView(*window, *grid);
     }
     for (BulletIter = bullets.begin(); BulletIter != bullets.end(); ++BulletIter) {
-        BulletIter->second->updateView(*window);
+        BulletIter->second->updateView(*window, *grid);
     }
-    playerView->updateView(*window);
+    playerView->updateView(*window, *grid);
 
     bagView->UpdateView(*window);
 }

@@ -1,5 +1,6 @@
 #include "EntityView.hpp"
 #include"Player.hpp"
+#include"FieldGrid.hpp"
 
 EntityView::EntityView(Entity& ent, const std::string& _picPath) : entity(ent), picPath(_picPath) {
     if (!texture.loadFromFile(_picPath))
@@ -9,6 +10,8 @@ EntityView::EntityView(Entity& ent, const std::string& _picPath) : entity(ent), 
     if (typeid(entity) == typeid(LittleHealthBottle) ||
         typeid(entity) == typeid(BigHealthBottle) || 
         typeid(entity) == typeid(Ammo))
+        return;
+    if (typeid(entity) == typeid(Bullet))
         return;
 
     if (!font.loadFromFile("Pixellettersfull-BnJ5.ttf")) {
@@ -58,7 +61,7 @@ int EntityView::getSizeY(){
     return texture.getSize().y;
 }
 
-void EntityView::updateView(sf::RenderWindow& win){
+void EntityView::updateView(sf::RenderWindow& win, FieldGrid& grid){
     // texture.loadFromFile(picPath);
     // sprite.setTexture(texture);
     sprite.setPosition(entity.GetX() /*- int(TileSize::Size)/2*/, entity.GetY() /*- int(TileSize::Size) / 2*/);
@@ -67,6 +70,8 @@ void EntityView::updateView(sf::RenderWindow& win){
     if (typeid(entity) == typeid(LittleHealthBottle) ||
         typeid(entity) == typeid(BigHealthBottle) ||
         typeid(entity) == typeid(Ammo))
+        return;
+    if (typeid(entity) == typeid(Bullet))
         return;
 
     ICharacter* tmp = dynamic_cast<ICharacter*>(&entity);
@@ -81,7 +86,7 @@ void EntityView::updateView(sf::RenderWindow& win){
         Player* tmpP = dynamic_cast<Player*>(&entity);
         tmpTxt.setString("Ammo Quantity:" + std::to_string(tmpP->GetWeapon().GetQuantity()));
         tmpTxt.setCharacterSize(40);
-        tmpTxt.setPosition(10, 14*60);
+        tmpTxt.setPosition(10, (grid.getHeight()-1)*int(TileSize::Size));
         tmpTxt.setStyle(sf::Text::Style::Bold);
         tmpTxt.setFillColor(sf::Color::Black);
         win.draw(tmpTxt);

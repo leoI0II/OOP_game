@@ -51,10 +51,10 @@ Ammo::Ammo(const Point& point) : Item(point) {}
 
 void Ammo::Interact(Entity* wp) {
     Weapon* tmp = dynamic_cast<Weapon*>(wp);
-    std::cout << "Weapon ammo quantity before: " << tmp->GetQuantity();
+    std::cout << "Weapon ammo quantity before: " << tmp->GetQuantity() << std::endl;
     //dynamic_cast<Weapon*>(wp)->SetQuantity(30);
     tmp->SetQuantity(30);
-    std::cout << "Weapon ammo quantity after: " << tmp->GetQuantity();
+    std::cout << "Weapon ammo quantity after: " << tmp->GetQuantity() << std::endl;
 }
 
 //////////////////////////////////////////////////////////////////////////////
