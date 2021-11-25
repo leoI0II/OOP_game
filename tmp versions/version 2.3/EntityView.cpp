@@ -73,6 +73,19 @@ void EntityView::updateView(sf::RenderWindow& win){
     text.setString("HP = " + std::to_string(tmp->GetHP()));
     if (typeid(entity) != typeid(Player))
         text.setPosition(entity.GetX(), entity.GetY()-20);
+    else {
+        sf::Font tmpF;
+        tmpF.loadFromFile("Pixellettersfull-BnJ5.ttf");
+        sf::Text tmpTxt;
+        tmpTxt.setFont(tmpF);
+        Player* tmpP = dynamic_cast<Player*>(&entity);
+        tmpTxt.setString("Ammo Quantity:" + std::to_string(tmpP->GetWeapon().GetQuantity()));
+        tmpTxt.setCharacterSize(40);
+        tmpTxt.setPosition(10, 14*60);
+        tmpTxt.setStyle(sf::Text::Style::Bold);
+        tmpTxt.setFillColor(sf::Color::Black);
+        win.draw(tmpTxt);
+    }
     win.draw(text);
 }
 
