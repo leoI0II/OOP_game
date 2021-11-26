@@ -1,0 +1,1252 @@
+11/26/21 10:24:10
+Player: 60 60; Current HP: 600
+
+Enemy: 600 420; Current HP: 300
+
+Enemy: 420 600; Current HP: 100
+
+Enemy: 420 660; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 60; Current HP: 600
+
+Enemy: 600 420; Current HP: 300
+
+Enemy: 420 600; Current HP: 100
+
+Enemy: 420 660; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 60; Current HP: 600
+
+Enemy: 622 420; Current HP: 300
+
+Enemy: 420 586.8; Current HP: 100
+
+Enemy: 420 642.4; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 60; Current HP: 600
+
+Enemy: 628.4 420; Current HP: 300
+
+Enemy: 420 582.96; Current HP: 100
+
+Enemy: 420 637.28; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 60; Current HP: 600
+
+Enemy: 635 420; Current HP: 300
+
+Enemy: 420 579; Current HP: 100
+
+Enemy: 420 632; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 66.8; Current HP: 600
+
+Enemy: 641.8 420; Current HP: 300
+
+Enemy: 420 574.92; Current HP: 100
+
+Enemy: 420 626.56; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 74; Current HP: 600
+
+Enemy: 649 420; Current HP: 300
+
+Enemy: 420 570.6; Current HP: 100
+
+Enemy: 420 620.8; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 84.4; Current HP: 600
+
+Enemy: 659.4 420; Current HP: 300
+
+Enemy: 420 564.36; Current HP: 100
+
+Enemy: 420 612.48; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 91.4; Current HP: 600
+
+Enemy: 666.4 420; Current HP: 300
+
+Enemy: 420 560.16; Current HP: 100
+
+Enemy: 420 606.88; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 99.6; Current HP: 600
+
+Enemy: 674.6 420; Current HP: 300
+
+Enemy: 420 555.24; Current HP: 100
+
+Enemy: 420 600.32; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 107.2; Current HP: 600
+
+Enemy: 682.2 420; Current HP: 300
+
+Enemy: 420 550.68; Current HP: 100
+
+Enemy: 420 594.24; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 114; Current HP: 600
+
+Enemy: 689 420; Current HP: 300
+
+Enemy: 420 546.6; Current HP: 100
+
+Enemy: 420 588.8; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 121.4; Current HP: 600
+
+Enemy: 696.4 420; Current HP: 300
+
+Enemy: 420 542.16; Current HP: 100
+
+Enemy: 420 582.88; Current HP: 200
+
+11/26/21 10:24:10
+Player: 60 128.6; Current HP: 600
+
+Enemy: 703.6 420; Current HP: 300
+
+Enemy: 420 537.84; Current HP: 100
+
+Enemy: 420 577.12; Current HP: 200
+
+11/26/21 10:24:11
+Player: 60 135.8; Current HP: 600
+
+Enemy: 710.8 420; Current HP: 300
+
+Enemy: 420 533.52; Current HP: 100
+
+Enemy: 420 571.36; Current HP: 200
+
+11/26/21 10:24:11
+Player: 60 145.6; Current HP: 600
+
+Enemy: 720.6 420; Current HP: 300
+
+Enemy: 420 527.64; Current HP: 100
+
+Enemy: 420 563.52; Current HP: 200
+
+11/26/21 10:24:11
+Player: 60 159; Current HP: 600
+
+Enemy: 734 420; Current HP: 300
+
+Enemy: 420 519.6; Current HP: 100
+
+Enemy: 420 552.8; Current HP: 200
+
+11/26/21 10:24:11
+Player: 60 164.4; Current HP: 600
+
+Enemy: 739.4 420; Current HP: 300
+
+Enemy: 420 516.36; Current HP: 100
+
+Enemy: 420 548.48; Current HP: 200
+
+11/26/21 10:24:11
+Player: 60 170; Current HP: 600
+
+Enemy: 745 420; Current HP: 300
+
+Enemy: 420 513; Current HP: 100
+
+Enemy: 420 544; Current HP: 200
+
+11/26/21 10:24:11
+Player: 66.6 170; Current HP: 600
+
+Enemy: 751.6 420; Current HP: 300
+
+Enemy: 420 509.04; Current HP: 100
+
+Enemy: 420 538.72; Current HP: 200
+
+11/26/21 10:24:11
+Player: 73.2 170; Current HP: 600
+
+Enemy: 758.2 420; Current HP: 300
+
+Enemy: 420 505.08; Current HP: 100
+
+Enemy: 420 533.44; Current HP: 200
+
+11/26/21 10:24:11
+Player: 81.6 170; Current HP: 600
+
+Enemy: 766.6 420; Current HP: 300
+
+Enemy: 420 500.04; Current HP: 100
+
+Enemy: 420 526.72; Current HP: 200
+
+11/26/21 10:24:11
+Player: 88.8 170; Current HP: 600
+
+Enemy: 773.8 420; Current HP: 300
+
+Enemy: 420 495.72; Current HP: 100
+
+Enemy: 420 520.96; Current HP: 200
+
+11/26/21 10:24:11
+Player: 97.6 170; Current HP: 600
+
+Enemy: 782.6 420; Current HP: 300
+
+Enemy: 420 490.44; Current HP: 100
+
+Enemy: 420 513.92; Current HP: 200
+
+11/26/21 10:24:11
+Player: 105.4 170; Current HP: 600
+
+Enemy: 790.4 420; Current HP: 300
+
+Enemy: 420 485.76; Current HP: 100
+
+Enemy: 420 507.68; Current HP: 200
+
+11/26/21 10:24:11
+Player: 114.4 170; Current HP: 600
+
+Enemy: 799.4 420; Current HP: 300
+
+Enemy: 420 480.36; Current HP: 100
+
+Enemy: 420 500.48; Current HP: 200
+
+11/26/21 10:24:11
+Player: 124.6 170; Current HP: 600
+
+Enemy: 809.6 420; Current HP: 300
+
+Enemy: 420 474.24; Current HP: 100
+
+Enemy: 420 492.32; Current HP: 200
+
+11/26/21 10:24:11
+Player: 131.6 170; Current HP: 600
+
+Enemy: 816.6 420; Current HP: 300
+
+Enemy: 420 470.04; Current HP: 100
+
+Enemy: 420 486.72; Current HP: 200
+
+11/26/21 10:24:11
+Player: 142 170; Current HP: 600
+
+Enemy: 827 420; Current HP: 300
+
+Enemy: 420 463.8; Current HP: 100
+
+Enemy: 420 478.4; Current HP: 200
+
+11/26/21 10:24:11
+Player: 149.6 170; Current HP: 600
+
+Enemy: 834.6 420; Current HP: 300
+
+Enemy: 420 459.24; Current HP: 100
+
+Enemy: 420 472.32; Current HP: 200
+
+11/26/21 10:24:11
+Player: 155.4 170; Current HP: 600
+
+Enemy: 840.4 420; Current HP: 300
+
+Enemy: 420 455.76; Current HP: 100
+
+Enemy: 420 467.68; Current HP: 200
+
+11/26/21 10:24:11
+Player: 161.2 170; Current HP: 600
+
+Enemy: 846.2 420; Current HP: 300
+
+Enemy: 420 452.28; Current HP: 100
+
+Enemy: 420 463.04; Current HP: 200
+
+11/26/21 10:24:11
+Player: 167.6 170; Current HP: 600
+
+Enemy: 852.6 420; Current HP: 300
+
+Enemy: 420 448.44; Current HP: 100
+
+Enemy: 420 457.92; Current HP: 200
+
+11/26/21 10:24:11
+Player: 176 170; Current HP: 600
+
+Enemy: 861 420; Current HP: 300
+
+Enemy: 420 443.4; Current HP: 100
+
+Enemy: 420 451.2; Current HP: 200
+
+11/26/21 10:24:11
+Player: 183 170; Current HP: 600
+
+Enemy: 868 420; Current HP: 300
+
+Enemy: 420 439.2; Current HP: 100
+
+Enemy: 420 445.6; Current HP: 200
+
+11/26/21 10:24:11
+Player: 193.8 170; Current HP: 600
+
+Enemy: 878.8 420; Current HP: 300
+
+Enemy: 420 432.72; Current HP: 100
+
+Enemy: 420 436.96; Current HP: 200
+
+11/26/21 10:24:11
+Player: 202.8 170; Current HP: 600
+
+Enemy: 887.8 420; Current HP: 300
+
+Enemy: 420 427.32; Current HP: 100
+
+Enemy: 420 429.76; Current HP: 200
+
+11/26/21 10:24:11
+Player: 210.6 170; Current HP: 600
+
+Enemy: 895.6 420; Current HP: 300
+
+Enemy: 420 422.64; Current HP: 100
+
+Enemy: 420 423.52; Current HP: 200
+
+11/26/21 10:24:12
+Player: 222.2 170; Current HP: 600
+
+Enemy: 907.2 420; Current HP: 300
+
+Enemy: 420 415.68; Current HP: 100
+
+Enemy: 420 414.24; Current HP: 200
+
+11/26/21 10:24:12
+Player: 229.6 170; Current HP: 600
+
+Enemy: 914.6 420; Current HP: 300
+
+Enemy: 420 411.24; Current HP: 100
+
+Enemy: 420 408.32; Current HP: 200
+
+11/26/21 10:24:12
+Player: 240.6 170; Current HP: 600
+
+Enemy: 925.6 420; Current HP: 300
+
+Enemy: 420 404.64; Current HP: 100
+
+Enemy: 420 399.52; Current HP: 200
+
+11/26/21 10:24:12
+Player: 247.2 170; Current HP: 600
+
+Enemy: 932.2 420; Current HP: 300
+
+Enemy: 420 400.68; Current HP: 100
+
+Enemy: 420 394.24; Current HP: 200
+
+11/26/21 10:24:12
+Player: 253.2 170; Current HP: 600
+
+Enemy: 938.2 420; Current HP: 300
+
+Enemy: 420 397.08; Current HP: 100
+
+Enemy: 420 389.44; Current HP: 200
+
+11/26/21 10:24:12
+Player: 261.8 170; Current HP: 600
+
+Enemy: 946.8 420; Current HP: 300
+
+Enemy: 420 391.92; Current HP: 100
+
+Enemy: 420 382.56; Current HP: 200
+
+11/26/21 10:24:12
+Player: 272.4 170; Current HP: 600
+
+Enemy: 957.4 420; Current HP: 300
+
+Enemy: 420 385.56; Current HP: 100
+
+Enemy: 420 374.08; Current HP: 200
+
+11/26/21 10:24:12
+Player: 280 170; Current HP: 600
+
+Enemy: 965 420; Current HP: 300
+
+Enemy: 420 381; Current HP: 100
+
+Enemy: 420 368; Current HP: 200
+
+11/26/21 10:24:12
+Player: 288.2 170; Current HP: 600
+
+Enemy: 973.2 420; Current HP: 300
+
+Enemy: 420 376.08; Current HP: 100
+
+Enemy: 420 361.44; Current HP: 200
+
+11/26/21 10:24:12
+Player: 294.8 170; Current HP: 600
+
+Enemy: 979.8 420; Current HP: 300
+
+Enemy: 420 372.12; Current HP: 100
+
+Enemy: 420 356.16; Current HP: 200
+
+11/26/21 10:24:12
+Player: 302.2 170; Current HP: 600
+
+Enemy: 987.2 420; Current HP: 300
+
+Enemy: 420 367.68; Current HP: 100
+
+Enemy: 420 350.24; Current HP: 200
+
+11/26/21 10:24:12
+Player: 311.8 170; Current HP: 600
+
+Enemy: 996.8 420; Current HP: 300
+
+Enemy: 420 361.92; Current HP: 100
+
+Enemy: 420 342.56; Current HP: 200
+
+11/26/21 10:24:12
+Player: 319 170; Current HP: 600
+
+Enemy: 1004 420; Current HP: 300
+
+Enemy: 420 357.6; Current HP: 100
+
+Enemy: 420 336.8; Current HP: 200
+
+11/26/21 10:24:12
+Player: 333.2 170; Current HP: 600
+
+Enemy: 1018.2 420; Current HP: 300
+
+Enemy: 420 349.08; Current HP: 100
+
+Enemy: 420 325.44; Current HP: 200
+
+11/26/21 10:24:12
+Player: 338.4 170; Current HP: 600
+
+Enemy: 1023.4 420; Current HP: 300
+
+Enemy: 420 345.96; Current HP: 100
+
+Enemy: 420 321.28; Current HP: 200
+
+11/26/21 10:24:12
+Player: 348.2 170; Current HP: 600
+
+Enemy: 1033.2 420; Current HP: 300
+
+Enemy: 420 340.08; Current HP: 100
+
+Enemy: 420 313.44; Current HP: 200
+
+11/26/21 10:24:12
+Player: 358.6 170; Current HP: 600
+
+Enemy: 1043.6 420; Current HP: 300
+
+Enemy: 420 333.84; Current HP: 100
+
+Enemy: 420 305.12; Current HP: 200
+
+11/26/21 10:24:12
+Player: 365.4 170; Current HP: 600
+
+Enemy: 1050.4 420; Current HP: 300
+
+Enemy: 420 329.76; Current HP: 100
+
+Enemy: 420 299.68; Current HP: 200
+
+11/26/21 10:24:12
+Player: 373.2 170; Current HP: 600
+
+Enemy: 1058.2 420; Current HP: 300
+
+Enemy: 420 325.08; Current HP: 100
+
+Enemy: 420 293.44; Current HP: 200
+
+11/26/21 10:24:12
+Player: 382.4 170; Current HP: 600
+
+Enemy: 1067.4 420; Current HP: 300
+
+Enemy: 420 319.56; Current HP: 100
+
+Enemy: 420 286.08; Current HP: 200
+
+11/26/21 10:24:12
+Player: 392.6 170; Current HP: 600
+
+Enemy: 1077.6 420; Current HP: 300
+
+Enemy: 420 313.44; Current HP: 100
+
+Enemy: 420 277.92; Current HP: 200
+
+11/26/21 10:24:12
+Player: 403.6 170; Current HP: 600
+
+Enemy: 1080 420; Current HP: 300
+
+Enemy: 420 306.84; Current HP: 100
+
+Enemy: 420 269.12; Current HP: 200
+
+11/26/21 10:24:13
+Player: 416.4 170; Current HP: 600
+
+Enemy: 1067.2 420; Current HP: 300
+
+Enemy: 420 299.16; Current HP: 100
+
+Enemy: 420 258.88; Current HP: 200
+
+11/26/21 10:24:13
+Player: 423.6 170; Current HP: 600
+
+Enemy: 1060 420; Current HP: 300
+
+Enemy: 420 294.84; Current HP: 100
+
+Enemy: 420 253.12; Current HP: 200
+
+11/26/21 10:24:13
+Player: 423.6 179.4; Current HP: 600
+
+Enemy: 1050.6 420; Current HP: 300
+
+Enemy: 420 289.2; Current HP: 100
+
+Enemy: 420 245.6; Current HP: 200
+
+11/26/21 10:24:13
+Player: 423.6 192.8; Current HP: 580
+
+Enemy: 1037.2 420; Current HP: 300
+
+Enemy: 420 281.16; Current HP: 100
+
+Enemy: 420 234.88; Current HP: 200
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 560
+
+Enemy: 1028.8 420; Current HP: 300
+
+Enemy: 420 276.12; Current HP: 100
+
+Enemy: 420 228.16; Current HP: 170
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 540
+
+Enemy: 1018.8 420; Current HP: 300
+
+Enemy: 420 270.12; Current HP: 100
+
+Enemy: 420 220.16; Current HP: 140
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 520
+
+Enemy: 1010.4 420; Current HP: 300
+
+Enemy: 420 265.08; Current HP: 100
+
+Enemy: 420 213.44; Current HP: 110
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 500
+
+Enemy: 1003.6 420; Current HP: 300
+
+Enemy: 420 261; Current HP: 100
+
+Enemy: 420 208; Current HP: 80
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 480
+
+Enemy: 994.8 420; Current HP: 300
+
+Enemy: 420 255.72; Current HP: 100
+
+Enemy: 420 200.96; Current HP: 50
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 460
+
+Enemy: 987.6 420; Current HP: 300
+
+Enemy: 420 251.4; Current HP: 100
+
+Enemy: 420 195.2; Current HP: 20
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 440
+
+Enemy: 981.4 420; Current HP: 300
+
+Enemy: 420 247.68; Current HP: 100
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 440
+
+Enemy: 974.2 420; Current HP: 300
+
+Enemy: 420 243.36; Current HP: 100
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 420
+
+Enemy: 968 420; Current HP: 300
+
+Enemy: 420 239.64; Current HP: 100
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 400
+
+Enemy: 961.2 420; Current HP: 300
+
+Enemy: 420 235.56; Current HP: 70
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 380
+
+Enemy: 954.2 420; Current HP: 300
+
+Enemy: 420 231.36; Current HP: 40
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 360
+
+Enemy: 947.2 420; Current HP: 300
+
+Enemy: 420 227.16; Current HP: 10
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 938.4 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 929.2 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 925.2 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 920.4 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 916 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 911.8 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 906.2 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 897.2 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 886.2 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 881.6 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 876 420; Current HP: 300
+
+11/26/21 10:24:13
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 871.4 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 865.6 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 858.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 423.6 201.2; Current HP: 340
+
+Enemy: 849.8 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 428.6 201.2; Current HP: 340
+
+Enemy: 844.8 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 438.2 201.2; Current HP: 340
+
+Enemy: 835.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 442.6 201.2; Current HP: 340
+
+Enemy: 830.8 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 447.2 201.2; Current HP: 340
+
+Enemy: 826.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 452.4 201.2; Current HP: 340
+
+Enemy: 821 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 201.2; Current HP: 340
+
+Enemy: 813.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 210.8; Current HP: 340
+
+Enemy: 803.6 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 216.6; Current HP: 340
+
+Enemy: 797.8 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 222.4; Current HP: 340
+
+Enemy: 792 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 228; Current HP: 340
+
+Enemy: 786.4 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 233.2; Current HP: 340
+
+Enemy: 781.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 238; Current HP: 340
+
+Enemy: 776.4 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 243.6; Current HP: 340
+
+Enemy: 770.8 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 249; Current HP: 340
+
+Enemy: 765.4 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 254; Current HP: 340
+
+Enemy: 760.4 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 259.2; Current HP: 340
+
+Enemy: 755.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 263.8; Current HP: 340
+
+Enemy: 750.6 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 268.2; Current HP: 340
+
+Enemy: 746.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 273.2; Current HP: 340
+
+Enemy: 741.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 277.8; Current HP: 340
+
+Enemy: 736.6 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 283.2; Current HP: 340
+
+Enemy: 731.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 288.4; Current HP: 340
+
+Enemy: 726 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 292.8; Current HP: 340
+
+Enemy: 721.6 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 299.2; Current HP: 340
+
+Enemy: 715.2 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 305; Current HP: 340
+
+Enemy: 709.4 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 310; Current HP: 340
+
+Enemy: 704.4 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 314.4; Current HP: 340
+
+Enemy: 700 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 320.6; Current HP: 340
+
+Enemy: 693.8 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 325.8; Current HP: 340
+
+Enemy: 688.6 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 331.6; Current HP: 340
+
+Enemy: 682.8 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 336.4; Current HP: 340
+
+Enemy: 678 420; Current HP: 300
+
+11/26/21 10:24:14
+Player: 460.2 341; Current HP: 340
+
+Enemy: 673.4 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 460.2 345.8; Current HP: 340
+
+Enemy: 668.6 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 460.2 350.8; Current HP: 340
+
+Enemy: 663.6 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 460.2 356.6; Current HP: 340
+
+Enemy: 657.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 460.2 362.4; Current HP: 340
+
+Enemy: 652 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 460.2 367.8; Current HP: 340
+
+Enemy: 646.6 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 464 367.8; Current HP: 340
+
+Enemy: 642.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 470.6 367.8; Current HP: 340
+
+Enemy: 636.2 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 475 367.8; Current HP: 340
+
+Enemy: 631.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 479.6 367.8; Current HP: 340
+
+Enemy: 627.2 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 484.2 367.8; Current HP: 340
+
+Enemy: 622.6 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 489.8 367.8; Current HP: 340
+
+Enemy: 617 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 495.2 367.8; Current HP: 340
+
+Enemy: 611.6 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 500.8 367.8; Current HP: 340
+
+Enemy: 606 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 506.6 367.8; Current HP: 340
+
+Enemy: 600.2 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 506.6 373; Current HP: 340
+
+Enemy: 595 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 506.6 376.8; Current HP: 340
+
+Enemy: 591.2 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 506.6 382.2; Current HP: 340
+
+Enemy: 585.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 506.6 386.4; Current HP: 340
+
+Enemy: 581.6 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 506.6 391.4; Current HP: 340
+
+Enemy: 576.6 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 506.6 395.8; Current HP: 340
+
+Enemy: 572.2 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 506.6 400.4; Current HP: 340
+
+Enemy: 567.6 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 506.6 405.4; Current HP: 340
+
+Enemy: 562.6 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 501.4 405.4; Current HP: 340
+
+Enemy: 557.4 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 497.4 405.4; Current HP: 340
+
+Enemy: 553.4 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 497.4 405.4; Current HP: 340
+
+Enemy: 547.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 497.4 405.4; Current HP: 340
+
+Enemy: 542.2 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 497.4 405.4; Current HP: 340
+
+Enemy: 536.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 497.4 405.4; Current HP: 340
+
+Enemy: 532.4 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 497.4 405.4; Current HP: 340
+
+Enemy: 526.4 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 497.4 405.4; Current HP: 340
+
+Enemy: 521.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 491.4 405.4; Current HP: 340
+
+Enemy: 515.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 486 405.4; Current HP: 340
+
+Enemy: 510.4 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 481 405.4; Current HP: 340
+
+Enemy: 505.4 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 476 405.4; Current HP: 340
+
+Enemy: 500.4 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 470.8 405.4; Current HP: 340
+
+Enemy: 495.2 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 465.8 405.4; Current HP: 340
+
+Enemy: 490.2 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 461.4 405.4; Current HP: 340
+
+Enemy: 485.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 461.4 405.4; Current HP: 340
+
+Enemy: 481.8 420; Current HP: 300
+
+11/26/21 10:24:15
+Player: 461.4 405.4; Current HP: 340
+
+Enemy: 476.2 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 461.4 405.4; Current HP: 340
+
+Enemy: 470.6 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 461.4 405.4; Current HP: 340
+
+Enemy: 465.8 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 461.4 405.4; Current HP: 340
+
+Enemy: 461.2 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 461.4 405.4; Current HP: 340
+
+Enemy: 456.4 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 457.6 405.4; Current HP: 340
+
+Enemy: 452.6 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 451.8 405.4; Current HP: 340
+
+Enemy: 446.8 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 446.4 405.4; Current HP: 340
+
+Enemy: 441.4 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 442 405.4; Current HP: 340
+
+Enemy: 437 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 438 405.4; Current HP: 340
+
+Enemy: 433 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 433 405.4; Current HP: 340
+
+Enemy: 428 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 433 410; Current HP: 340
+
+Enemy: 423.4 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 433 417.8; Current HP: 340
+
+Enemy: 415.6 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 433 423.4; Current HP: 340
+
+Enemy: 410 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 433 429; Current HP: 340
+
+Enemy: 404.4 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 427.8 429; Current HP: 340
+
+Enemy: 399.2 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 423 429; Current HP: 340
+
+Enemy: 394.4 420; Current HP: 300
+
+11/26/21 10:24:16
+Player: 415.4 429; Current HP: 310
+
+Enemy: 386.8 420; Current HP: 270
+
+11/26/21 10:24:16
+Player: 410.6 429; Current HP: 280
+
+Enemy: 382 420; Current HP: 240
+
+11/26/21 10:24:16
+Player: 404.8 429; Current HP: 250
+
+Enemy: 376.2 420; Current HP: 210
+
+11/26/21 10:24:16
+Player: 400 429; Current HP: 220
+
+Enemy: 371.4 420; Current HP: 180
+
+11/26/21 10:24:16
+Player: 394.4 429; Current HP: 190
+
+Enemy: 365.8 420; Current HP: 150
+
+11/26/21 10:24:16
+Player: 388.4 429; Current HP: 190
+
+Enemy: 359.8 420; Current HP: 120
+
+11/26/21 10:24:16
+Player: 383.2 429; Current HP: 190
+
+Enemy: 354.6 420; Current HP: 120
+
+11/26/21 10:24:16
+Player: 377.6 429; Current HP: 190
+
+Enemy: 349 420; Current HP: 120
+
+11/26/21 10:24:16
+Player: 373.4 429; Current HP: 190
+
+Enemy: 344.8 420; Current HP: 120
+
+11/26/21 10:24:16
+Player: 368 429; Current HP: 190
+
+Enemy: 339.4 420; Current HP: 120
+
+11/26/21 10:24:16
+Player: 362.4 429; Current HP: 190
+
+Enemy: 333.8 420; Current HP: 120
+
+11/26/21 10:24:16
+Player: 357.8 429; Current HP: 160
+
+Enemy: 329.2 420; Current HP: 90
+
+11/26/21 10:24:16
+Player: 351.4 429; Current HP: 130
+
+Enemy: 322.8 420; Current HP: 60
+
+11/26/21 10:24:16
+Player: 345.6 429; Current HP: 100
+
+Enemy: 317 420; Current HP: 30
+
