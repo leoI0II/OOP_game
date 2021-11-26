@@ -27,8 +27,12 @@ private:
 #endif //LOGGER_HPP
 
 template<LogType T>
-Logger<T>::Logger() : outFile("log.txt")
+Logger<T>::Logger()
 {
+    if (T == LogType::BOTH || T == LogType::FILE)
+        outFile.open("log.txt");
+    else
+        return;
 }
 
 template<LogType T>
