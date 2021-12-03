@@ -5,7 +5,7 @@ Enemy::Enemy(int HP, int dmg, const Point& point, double sp, MoveDir ms, EnemyTy
 
 Enemy::~Enemy() {}
 
-void Enemy::UseItem(ItemType) {}
+void Enemy::UseItem(const std::type_index&) {}
 
 EnemyType Enemy::GetType() const {
     return type;

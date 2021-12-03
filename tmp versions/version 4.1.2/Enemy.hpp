@@ -15,7 +15,7 @@ public:
 
     ~Enemy();
 
-    void UseItem(ItemType);
+    void UseItem(const std::type_index&);
     EnemyType GetType() const;
     void SetType(EnemyType tp);
 

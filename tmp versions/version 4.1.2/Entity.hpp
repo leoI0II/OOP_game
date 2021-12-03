@@ -5,7 +5,7 @@
 #include"Point.hpp"
 //#include"Observable.hpp"
 enum class MoveDir { Stay, Up, Down, Right, Left };
-enum class ItemType { LittleHealthBottle, BigHealthBottle, Ammo };
+//enum class ItemType { LittleHealthBottle, BigHealthBottle, Ammo };
 
 class Entity
 {

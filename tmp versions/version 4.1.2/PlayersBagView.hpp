@@ -4,7 +4,7 @@
 #include"Player.hpp"
 #include<SFML/Graphics.hpp>
 
-using Bag_t = std::map<ItemType, std::vector<Item*>>;
+using Bag_t = std::map< std::type_index, std::vector<Item*>>;
 
 class PlayersBagView
 {
@@ -17,8 +17,8 @@ private:
 	int edgeWidth;
 
 	Bag_t& bag;
-	std::map<ItemType, std::pair<sf::Texture, sf::Sprite>> gui;
-	std::map<ItemType, std::pair<sf::Font, sf::Text>> fontsAndText;
+	std::map< std::type_index, std::pair<sf::Texture, sf::Sprite>> gui;
+	std::map< std::type_index, std::pair<sf::Font, sf::Text>> fontsAndText;
 
 	sf::Font bagFont;
 	sf::Text bagText;

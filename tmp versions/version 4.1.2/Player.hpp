@@ -9,12 +9,13 @@
 // #include"Item.hpp"
 #include<typeinfo>
 #include"FieldGrid.hpp"
+#include<typeindex>
 
 class FieldGrid;
 class Bullet;
 class Item;
 
-using Bag_t = std::map<ItemType, std::vector<Item*>>;
+using Bag_t = std::map<std::type_index, std::vector<Item*>>;
 
 class Player : public Character {
 public:
@@ -23,7 +24,7 @@ public:
 
     ~Player();
 
-    void UseItem(ItemType ittp);
+    void UseItem(const std::type_index& ind);
 
     void AddToBag(Item* newItem);
     Bag_t& GetBag();
@@ -54,3 +55,15 @@ private:
 };
 
 #endif //PLAYER_HPP
+
+//template<class item>
+//void Player::UseItem(item) {
+//    if (!bag[std::type_index(typeid(item)].empty()) {
+//        Item* tmp = bag[std::type_index(typeid(item)].back();
+//        bag[std::type_index(typeid(item)].pop_back();
+//        if (typeid(item) == typeid(Ammo))
+//            tmp->Interact(&weapon);
+//        else
+//            tmp->Interact(this);
+//    }
+//}

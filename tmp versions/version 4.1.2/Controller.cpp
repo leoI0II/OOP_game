@@ -21,13 +21,13 @@ void Controller::Control() {
 	//	//std::cout << "Mouse Position: " << sf::Mouse::getPosition().x << " " << sf::Mouse::getPosition().y << std::endl;
 	//}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Q)) {
-		player.UseItem(ItemType::LittleHealthBottle);
+		player.UseItem(std::type_index(typeid(LittleHealthBottle)));
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::E)) {
-		player.UseItem(ItemType::BigHealthBottle);
+		player.UseItem(std::type_index(typeid(BigHealthBottle)));
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::R)) {
-		player.UseItem(ItemType::Ammo);
+		player.UseItem(std::type_index(typeid(Ammo)));
 	}
 	//if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space) && player.GetIsFire() != true) {
 	//	std::cout << "Space pressed" << std::endl;

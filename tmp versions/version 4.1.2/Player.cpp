@@ -4,18 +4,19 @@ Player::Player(int HP, int dmg, Point& pos, double sp, int wQuant, MoveDir MD, M
     Character(HP, dmg, pos, sp, MD), weapon(wQuant, pos), checkDir(chD) {}
 
 Player::~Player() {
-    for (int i = 0; i < 3; i++) {
-        if (!bag[ItemType(i)].empty())
-            for (int j = 0; j < bag[ItemType(i)].size(); j++)
-                delete bag[ItemType(i)][j];
-    }
+    //for (int i = 0; i < 3; i++) {
+    //    if (!bag[ItemType(i)].empty())
+    //        for (int j = 0; j < bag[ItemType(i)].size(); j++)
+    //            delete bag[ItemType(i)][j];
+    //}
 }
 
-void Player::UseItem(ItemType ittp) {
-    if (!bag[ittp].empty()) {
-        Item* tmp = bag[ittp].back();
-        bag[ittp].pop_back();
-        if (ittp == ItemType::Ammo)
+void Player::UseItem(const std::type_index& ind)
+{
+    if (!bag[ind].empty()) {
+        Item* tmp = bag[ind].back();
+        bag[ind].pop_back();
+        if (ind == typeid(Ammo))
             tmp->Interact(&weapon);
         else
             tmp->Interact(this);
@@ -24,15 +25,15 @@ void Player::UseItem(ItemType ittp) {
 
 void Player::AddToBag(Item* newItem) {
     if (typeid(*newItem) == typeid(LittleHealthBottle)) {
-        bag[ItemType::LittleHealthBottle].push_back(newItem);
+        bag[std::type_index(typeid(*newItem))].push_back(newItem);
         std::cout << "Little health bottle added to player bag" << std::endl;
     }
     else if (typeid(*newItem) == typeid(BigHealthBottle)) {
-        bag[ItemType::BigHealthBottle].push_back(newItem);
+        bag[std::type_index(typeid(*newItem))].push_back(newItem);
         std::cout << "Big health bottle added to player bag" << std::endl;
     }
     else if (typeid(*newItem) == typeid(Ammo)) {
-        bag[ItemType::Ammo].push_back(newItem);
+        bag[std::type_index(typeid(*newItem))].push_back(newItem);
         std::cout << "Ammo added to player bag" << std::endl;
     }
 }

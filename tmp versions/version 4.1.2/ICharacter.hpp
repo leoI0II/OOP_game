@@ -4,6 +4,7 @@
 
 #include"Entity.hpp"
 #include"FieldGrid.hpp"
+#include<typeindex>
 
 class FieldGrid;
 
@@ -17,7 +18,7 @@ public:
     virtual double GetSpeed() const = 0;
     virtual int GetDamage() const = 0;
     //------------------------------------
-    virtual void UseItem(ItemType) = 0;
+    virtual void UseItem(const std::type_index&) = 0;
     //------------------------------------
     virtual void SetDirection(MoveDir) = 0;
     virtual MoveDir GetDirection() const = 0;
