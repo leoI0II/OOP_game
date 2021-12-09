@@ -10,7 +10,6 @@
 #include<list>
 #include<vector>
 #include"GridView.hpp"
-#include"Controller.hpp"
 #include"PlayersBagView.hpp"
 #include"CAFLogger.hpp"
 #include<chrono>
@@ -18,7 +17,8 @@
 #include"GameStats.hpp"
 #include"EnemyKillerEvent.hpp"
 #include"TimeEvent.hpp"
-#include"SFML_KeyReader.hpp"
+#include"SFML_CommandHandler.hpp"
+#include"Controller.hpp"
 
 using pairEnemy = std::pair<Enemy*, EntityView*>;
 using pairItem = std::pair<Item*, EntityView*>;
@@ -109,7 +109,7 @@ Game<TimeEv, EKE>::~Game()
 {
     delete window;
 
-    delete player;
+    /*delete player;
     delete playerView;
 
     for (auto it = enemies.begin(); it != enemies.end(); ++it) {
@@ -129,7 +129,7 @@ Game<TimeEv, EKE>::~Game()
     delete gridView;
 
     delete controller;
-    delete bagView;
+    delete bagView;*/
 }
 
 template<class TimeEv, class EKE>
@@ -208,7 +208,7 @@ void Game<TimeEv, EKE>::InitPlayer()
     //std::cout << tmp.GetX() << " " << tmp.GetY() << std::endl;
     player = new Player(600, 30, tmp, 0.2);
     playerView = new EntityView(*player, "P.png");
-    controller = new Controller(new SFML_KeyReader, player);
+    controller = new Controller(player, new SFML_CommandHandler);
     playerLogger = new CAFLogger(player);
     player->AttachObserver(playerLogger);
 }

@@ -2,31 +2,18 @@
 #ifndef CONTROLLER_HPP
 #define CONTROLLER_HPP
 
-#include"Player.hpp"
-#include<memory>
-#include"SFML_KeyReader.hpp"
-
-//class Controller
-//{
-//public:
-//	Controller(Player& _view);
-//
-//	void Control();
-//
-//private:
-//
-//	// EntityView& view;
-//	Player& player;
-//};
-
+#include"CommandHandler.hpp"
 
 class Controller {
 public:
-	Controller(IInput* _input, Player* playerPtr);
+	Controller(Character* ch, CommandHandler* com);
+	~Controller();
+
 	void Control();
+
 private:
-	std::shared_ptr<IInput> input;
-	std::shared_ptr<Player> player;
+	Character* character;
+	CommandHandler* commandH;
 };
 
 
